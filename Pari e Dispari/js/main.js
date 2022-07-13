@@ -44,3 +44,34 @@ if (sceltaUtente == chiVince){
 }else{
     alert('Peccato, prova di nuovo!')
 }
+
+/* 
+const sceltaUtente = prompt("Salve, prego scelga tra pari e dispari"); 
+const numeroUtente = parseInt(prompt("scelga un numero da 1 a 5"));
+const numeroRandom = numeroRandomCom(1, 5);
+const sommaNumeri = numeroRandom + numeroUtente;
+const risultatoPariODispari = pariOppureDispari(sommaNumeri);
+
+if (sceltaUtente == risultatoPariODispari){
+    alert('Bravo, hai vinto!')
+}else{
+    alert('Peccato, prova di nuovo!')
+}
+
+
+function pariOppureDispari (somma){
+    if(somma % 2 == 0){
+        return 'pari';
+    }else{
+        return 'dispari';
+    }
+}
+
+function numeroRandomCom(min, max){
+    const range = max - min + 1;
+    const randomCom = Math.floor(Math.random() * range) + min;
+    
+    return randomCom;
+}
+
+*/
